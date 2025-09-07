@@ -27,8 +27,18 @@ for (let id = 1; id <= 5; id++) {
 console.log (tasks).label = "All Tasks";
 
 
+// Filter tasks by status to display those that are "done"
+const completedTasks = tasks.filter(task => task.taskStatus === "done");
 
-
+if (completedTasks.length > 0) {
+  console.log(completedTasks).label = "Completed Tasks";  // label for completed tasks in console
+  completedTasks.forEach(task => {
+    console.log(`Title: ${task.Title}, Description: ${taskDescription} Status: ${task.Status}`);
+  });
+} else {
+  console.log("No tasks completed, let's get to work!");
+}
+// If no tasks are completed, display a motivational message
 
 
 
