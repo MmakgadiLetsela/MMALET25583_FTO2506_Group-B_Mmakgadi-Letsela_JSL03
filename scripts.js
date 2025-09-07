@@ -18,11 +18,13 @@ function createTask(id) {
 
 // Add a maximum of 5 tasks
 for (let id = 1; id <= 5; id++) {
+    tasks.push(createTask(id));
+
   if (tasks.length === 5) {
     alert("There are enough tasks on your board, please check them in the console.");
     break;
   }
-  tasks.push(createTask(id));
+  
 }
 console.log("All Tasks:");
 console.log(tasks);  // label for all tasks in console
