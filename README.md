@@ -23,10 +23,17 @@ This project involves a simple task management system where users can add 3 new 
 - Node.js to run javascript outside the browser.
 
 ## Interaction instructions 🔭
+- Refresh the tab to start the task prompts.
+- Enter details for the different tasks.
+- Press cancel if you want to stop before the tasks have all been prompted.
+- Right-click anywhere on the page and click inspect to access DevTools.
+- Click the console to view the tasks and messages. 
 
-
-## Working usage examples
-
+## Working usage examples 💯
+- Open the page and you're prompted to enter a title, description and status for 5 different tasks.
+- If you enter an invalid status, an alert informs you of that.
+- After the 5 tasks, an alert informs you that there are enough tasks.
+- The console logs the tasks under "All Tasks" and "Completed Tasks". 
 
 ## Acknowledgments 🧑‍🤝‍🧑
 - This project was completed by Mmakgadi Bonolo Letsela for JSL03.
