@@ -1,38 +1,43 @@
-# JSL03 Project Brief: Console-Based Task Manager
+# JSL03 PROJECT: CONSOLE-BASED TASK MANAGER
 
-## Important Prerequisite
+## Project Description 📗
+This project involves a simple task management system where users can add 3 new tasks to an existing array. Tasks are stored as objects in an array, each with a unique incremental ID. Users will enter details when prompted and those details can be filtered to view completed tasks. The project focuses on array manipulation, user interaction and console logging. 
 
-1. Before starting this challenge, make sure you have reviewed and corrected your JSL02 project using the provided solution. Your prompts for entering task details should be fully functional and include proper validation checks to ensure accurate user input.
-2. **Check the project user stories in your student dashboard**, make sure you understand what is required for each feature.
+## Technologies used ⚙️
+- Javascript
+- HTML5
+- CSS3
 
-## Overview
+## Features Created And Updated ⚒️
+- Create an array to include all task objects.
+- Add task details to the objects, where each object has an ID that increases by 1.
+- Output all tasks to the console under the label "All tasks".
+- Filter out completed tasks and display them under the label "Completed Tasks".
+- Add an alert that triggers when the maximum number of tasks is reached.
 
-This project involves creating a **simple task management system** where users can add **up to three new tasks** to an existing task array. Tasks are **stored as objects in an array**, each with a **unique incremental ID**. Users will enter task details via prompts, and the system will allow filtering to view only completed tasks. The project focuses on **array manipulation, user interaction via prompts and alerts, and console logging for task management**.
 
-## Key Objectives
+## Set-up Instruction 🚧
+ #### You need the following to set-up the project:
+- Visual Studio Code to view the code with the live server extension.
+- A browser such as Chrome, Mozilla, Explorer or Safari. 
+- Node.js to run javascript outside the browser.
 
-### Logic & User Interaction
+## Interaction instructions 🔭
+- Refresh the tab to start the task prompts.
+- Enter details for the different tasks.
+- Press cancel if you want to stop before the tasks have all been prompted.
+- Right-click anywhere on the page and click inspect to access DevTools.
+- Click the console to view the tasks and messages. 
 
-- Store tasks as **objects inside an array** for structured data management.
-- Allow users to **add up to three new tasks** to the existing task list.
-- Ensure each new task has a **unique incremental ID** based on the last task in the array.
-- Prompt users to enter **task details (title, description, status)** and store them in an object.
-- Alert users when they reach the task limit with the message:
-  _"There are enough tasks on your board, please check them in the console."_
-  Implement a **filter function** to display only tasks with the status `"done"`.
-- Log **all tasks** in the console with a clear label for easy review.
-- Log **only completed tasks** (status: `"done"`) in the console under a "Completed Tasks" label for quick reference.
+## Working usage examples 💯
+- Open the page and you're prompted to enter a title, description and status for 5 different tasks.
+- If you enter an invalid status, an alert informs you of that.
+- After the 5 tasks, an alert informs you that there are enough tasks.
+- The console logs the tasks under "All Tasks" and "Completed Tasks". 
 
-## Code Quality & Maintainability
+## Acknowledgments 🧑‍🤝‍🧑
+- This project was completed by Mmakgadi Bonolo Letsela for JSL03.
 
-- Use meaningful variable and function names to ensure readability and maintainability.
-- Follow consistent indentation and formatting to enhance code clarity.
-- Include comments explaining key logic and functionality to support future modifications.
-
-## Expected Outcome
-
-A **structured and limited task management system** that enables users to add, review, and filter tasks efficiently while ensuring **clean, well-documented, and maintainable code.**
-
-**Console Log of all and completed tasks**
-
-![console log](./explainer-images/console%20log.png)
+## Contact Details ☎️
+LinkedIn: www.linkedin.com/in/mmakgadi-letsela  
+Email:    mmakgadi.letsela@gmail.com
