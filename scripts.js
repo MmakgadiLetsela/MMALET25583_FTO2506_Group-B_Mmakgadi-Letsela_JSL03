@@ -1,4 +1,3 @@
-
 // Create a tasks array that has 5 task objects
 
 const tasks = [];
@@ -44,7 +43,11 @@ if (completedTasks.length > 0) {
 } // If no tasks are completed, display a motivational message
 
 
-
+const titleANDstatus = tasks.filter(taskdetails => taskdetails.taskTitle && taskdetails.taskStatus);
+console.log("Task Titles and Statuses:");
+titleANDstatus.forEach(taskdetails => {
+  console.log(`Title: ${taskdetails.taskTitle}, Status: ${taskdetails.taskStatus}`);
+});  // label for task titles and statuses in console
 
 
 
